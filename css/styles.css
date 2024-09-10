@@ -497,11 +497,14 @@ footer .footer__conta2 .master{
     background-size: contain;
     background-position: center center;
     color: white;
+    position: relative;
+z-index: 1;
+bottom: 130px;
 height: 70vh;
 }
 footer{
 background-color: #0d5d9c;
-;
+
 }
 }
 /* footer end */
