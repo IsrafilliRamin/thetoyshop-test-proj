@@ -46,9 +46,7 @@ header .header__top .all__flaq a img {
     border-radius: 100%;
     height: 100%;
     width: 100%;
-    
 }
-
 
 header .header__top .log__help__loc {
     display: flex;
@@ -327,24 +325,24 @@ footer .footer__conta form button {
     bottom: 60px;
 }
 
- footer .footer__conta2{
+footer .footer__conta2 {
     height: 60px;
 }
 
-footer .footer__conta2 ul{
+footer .footer__conta2 ul {
     list-style: none;
 }
 
-footer .footer__conta2 ul li a{
+footer .footer__conta2 ul li a {
     text-decoration: none;
     color: var(--colorHeaderBot);
 }
 
-footer .footer__conta2 .master{
+footer .footer__conta2 .master {
     font-size: 25px;
 }
 /* responsive start */
-@media (min-width: 1700px){
+@media (min-width: 1700px) {
     footer .footer__conta {
         background-image: url(../assets/Footer8.svg);
         height: 120vh;
@@ -353,69 +351,68 @@ footer .footer__conta2 .master{
         background-position: center center;
         color: white;
     }
-} 
-@media (max-width: 1200px){
+}
+@media (max-width: 1200px) {
     footer .footer__conta form {
-        width:100%;
+        width: 100%;
     }
-    .footer__conta__info{
+    .footer__conta__info {
         text-align: center;
     }
-    .footer__conta .footer__conta__right span{
+    .footer__conta .footer__conta__right span {
         text-align: center;
         width: 100%;
     }
-    footer .footer__conta .icons{
+    footer .footer__conta .icons {
         width: 100%;
-        justify-content: space-between!important;
+        justify-content: space-between !important;
     }
-    .fa-bars{
+    .fa-bars {
         position: absolute;
         font-size: 27px;
         top: 20px;
         color: #dce3ff;
         font-weight: 800;
     }
-    header .header__center{
+    header .header__center {
         flex-direction: column;
         align-items: center;
         gap: 10px;
         padding-left: 0px;
     }
-    header .header__center .header__center__logimg{
+    header .header__center .header__center__logimg {
         width: 200px;
         position: static;
     }
-    header .mobile__flaq{
+    header .mobile__flaq {
         display: flex;
         position: absolute;
         right: 30px;
         top: 80px;
     }
-    header .mobile__flaq a img{
+    header .mobile__flaq a img {
         border-radius: 75px;
         height: 25px;
         width: 25px;
     }
     header .mobile__flaq a {
-       
         height: 30px;
         width: 30px;
         display: block;
     }
-    ul{
+    ul {
         padding-left: 0px !important;
     }
-    .mobileBasket{
+    .mobileBasket {
         position: absolute;
         right: 35px;
         top: 50px;
-       }
-       .mobileBasket i{
+    }
+    .mobileBasket i {
         color: var(--colorMain);
         font-size: 22px;
-       }
-       .mobileBasket span{
+    }
+    .mobileBasket span {
         background-color: var(--colorSearchButton);
         color: var(--colorMain);
         position: absolute;
@@ -429,18 +426,28 @@ footer .footer__conta2 .master{
         padding-bottom: 2px;
         right: -10px;
         top: -15px;
-       }
-       footer .footer__conta2{
+    }
+    footer .footer__conta2 {
         height: fit-content;
         padding: 10px 0px;
         background-color: #dce3ff;
     }
 }
-@media (max-width: 600px){
-    main{
+@media (max-width: 600px) {
+    footer .footer__conta .icons {
+        width: 100%;
+        justify-content: space-around !important;
+    }
+    .footer__conta__info{
+        position: relative;
+        top: 100px;
+        display: flex;
+        gap: 20px!important;
+    }
+    main {
         position: relative;
     }
-    header .mobile__flaq{
+    header .mobile__flaq {
         display: flex;
         position: relative;
         top: 0;
@@ -450,7 +457,7 @@ footer .footer__conta2 .master{
         justify-content: center;
         margin: 0 !important;
     }
-    .fa-bars{
+    .fa-bars {
         position: absolute;
         font-size: 27px;
         top: 60px;
@@ -464,47 +471,50 @@ footer .footer__conta2 .master{
         align-items: center;
         justify-content: center;
     }
-    header .header__center .header__center__logimg img{
+    header .header__center .header__center__logimg img {
         width: 50%;
     }
-   .mobileBasket{
-    position: absolute;
-    right: 20px;
-    top: 65px;
-   }
-   .mobileBasket i{
-    color: var(--colorMain);
-    font-size: 22px;
-   }
-   .mobileBasket span{
-    background-color: var(--colorSearchButton);
-    color: var(--colorMain);
-    position: absolute;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 6px;
-    font-size: 14px;
-    font-weight: 600;
-    padding-bottom: 2px;
-    right: -10px;
-    top: -15px;
-   }
-   footer .footer__conta {
-    background-image: url(../assets/Footer8.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    color: white;
-    position: relative;
-z-index: 1;
-bottom: 194px;
-height: 70vh;
-}
-footer{
-background-color: #0d5d9c;
-
-}
+    .mobileBasket {
+        position: absolute;
+        right: 20px;
+        top: 65px;
+    }
+    .mobileBasket i {
+        color: var(--colorMain);
+        font-size: 22px;
+    }
+    .mobileBasket span {
+        background-color: var(--colorSearchButton);
+        color: var(--colorMain);
+        position: absolute;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 6px;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 2px;
+        right: -10px;
+        top: -15px;
+    }
+    footer .footer__conta {
+        background-image: url(../assets/Footer8.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        color: white;
+        position: relative;
+        z-index: 1;
+        bottom: 194px;
+        height: 70vh;
+    }
+    footer {
+        background-color: #0d5d9c;
+    }
+    .py-5 {
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important;
+    }
 }
 /* footer end */
